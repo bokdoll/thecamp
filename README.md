@@ -18,7 +18,7 @@ __sopt 26기 서버파트 합동세미나__ <br/>
 <br/>
 
 ### 3️⃣ LEVEL 3. API - EC2 테스트
-<img src="https://user-images.githubusercontent.com/37169252/83380567-2def0c00-a419-11ea-9dac-b03996efd613.png" width= "800">
+<img src="https://user-images.githubusercontent.com/37169252/83380567-2def0c00-a419-11ea-9dac-b03996efd613.png" width= "920">
 
 <br/>
 

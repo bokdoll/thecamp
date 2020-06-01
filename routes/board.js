@@ -17,7 +17,6 @@ router.get('/', function(req, res, next){
  * 국방 일보
  */
 router.get('/news', async(req, res) => {
-
     const news = await NewsModel.getAllNews();
     res.status(statusCode.OK).send(util.success(statusCode.OK, '국방 일보', news));
 });

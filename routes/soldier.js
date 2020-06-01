@@ -5,6 +5,7 @@ let responseMessage = require('../modules/responseMessage');
 let util = require('../modules/util');
 const soldierModel = require('../models/soldiers');
 
+           
 // 계급 반환 함수
 soldierDegree = (_diffMonth,_soldierType)=>{
     if(_soldierType == "의경"){
@@ -71,12 +72,18 @@ router.get('/', async(req, res) => {
     // 1. 입대일로 전역일 계산
     // 2. 입대일로 현재 계급 계산
     for(var i=0; i<result.length; i++){
+        temp_img = []
+        const imgList = await soldierModel.getSoldierImage(soldier[i]["soldier_idx"]);
         const soldierType = result[i]["soldier_type"];
         const joinDate = result[i]["join_date"].substr(0,10);
         var endDate = "";
         var diffMonth ="";
         var degree ="";
 
+        for (var j=0; j<imgList.length; j++){
+            temp_img[j] =  imgList[j]["soldier_imgs"];
+        }
+      
         if(soldierType == "육군" || soldierType == "해병"){
             endDate = dateAddDel(joinDate,+18,'m');
         }
@@ -93,6 +100,7 @@ router.get('/', async(req, res) => {
         degree = soldierDegree(diffMonth,soldierType);
         temp_2["degree"] = degree;
         temp_2["end_date"] = endDate;
+        temp_2["imgList"] = temp_img;
         temp.push(temp_2);
     }
     if(!result){

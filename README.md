@@ -12,13 +12,13 @@ __sopt 26기 서버파트 합동세미나__ <br/>
 <br/>
 
 ### 2️⃣ LEVEL 2. 데이터 구조 ERD
-<img src="https://user-images.githubusercontent.com/37169252/83379084-a18f1a00-a415-11ea-9287-09484170e8ca.png" width= "650">
+<img src="https://user-images.githubusercontent.com/37169252/83380403-d0f35600-a418-11ea-8b4e-379a56aba894.png" width= "650">
 
 <br/>
 <br/>
 
 ### 3️⃣ LEVEL 3. API - EC2 테스트
-<img src="https://user-images.githubusercontent.com/37169252/83379143-c71c2380-a415-11ea-8c9e-63dc63309702.png" width= "650">
+<img src="https://user-images.githubusercontent.com/37169252/83380567-2def0c00-a419-11ea-9dac-b03996efd613.png" width= "800">
 
 <br/>
 

@@ -19,7 +19,7 @@ router.get('/main', async(req, res) => {
     const result = await mypage.read();
     if(!result){
         return res.status(statusCode.BAD_REQUEST)
-           .send(util.fail(statusCode.BAD_REQUEST,responseMessage.READ_MYPAGE_FAIL)); 
+            .send(util.fail(statusCode.BAD_REQUEST,responseMessage.READ_MYPAGE_FAIL)); 
     }
     return res.status(statusCode.OK)
         .send(util.success(statusCode.OK,responseMessage.READ_MYPAGE_SUCCESS,result));

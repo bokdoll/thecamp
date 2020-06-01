@@ -7,13 +7,21 @@ module.exports = {
 
     // EVENT
     READ_EVENT_FAIL : "EVENT 조회 실패",
-    READ_EVENT_SUCESS : "EVNET 조회 성공",
+    READ_EVENT_SUCCESS : "EVENT 조회 성공",
 
     // MYPAGE
     READ_MYPAGE_FAIL : "MYPAGE 조회 실패",
-    READ_MYPAGE_SUCESS : "MYPAGE 조회 성공",
+    READ_MYPAGE_SUCCESS : "MYPAGE 조회 성공",
 
     // SOLDIER
     READ_SOLDIER_FAIL : "병사정보 조회 실패",
-    READ_SOLDIER_SUCESS : "병사정보 조회 성공",
+    READ_SOLDIER_SUCCESS : "병사정보 조회 성공",
+
+    // NOTICE
+    READ_NOTICE_FAIL : "공지사항 조회 실패",
+    READ_NOTICE_SUCCESS : "공지사항 조회 성공",
+
+    // NEWS
+    READ_NEWS_FAIL : "국방일보 조회 실패",
+    READ_NEWS_SUCCESS : "국방일보 조회 성공",
 };

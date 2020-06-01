@@ -18,7 +18,7 @@ router.get('/now', async(req, res) => {
     const result = await event.read();
     if(!result){
         return res.status(statusCode.BAD_REQUEST)
-           .send(util.fail(statusCode.BAD_REQUEST,responseMessage.READ_EVENT_FAIL)); 
+            .send(util.fail(statusCode.BAD_REQUEST,responseMessage.READ_EVENT_FAIL)); 
     }
     return res.status(statusCode.OK)
         .send(util.success(statusCode.OK,responseMessage.READ_EVENT_SUCCESS,result));

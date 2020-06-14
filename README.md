@@ -1,9 +1,12 @@
 # 🏕 the camp
-__sopt 26기 서버파트 합동세미나__ <br/>
+__sopt 26기 서버파트 합동세미나__ <br/><br/>
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/37169252/84593294-7fba7c00-ae86-11ea-9116-fefe144b5c8b.gif" width="300">
+</p>
 
 <br/>
-<br/>
+
 
 ### 1️⃣ LEVEL 1. API 명세서
 [🔗참고해주세요!](https://github.com/bokdoll/thecamp/wiki)  
